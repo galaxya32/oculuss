@@ -5,25 +5,25 @@ html(lang="en")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
         title OCULUS
         //- CSS
-        link(rel="stylesheet", href="../css/style.css")
+        link(rel="stylesheet", href="../scss/main.css")
     body 
         //- HEADER START
-        include ../components/header.pug
+        include ./components/header.pug
         //- HEADER END
 
         //- MAIN 
             //- HERO START
         .container 
-            include ../components/hero.pug
+            include ./components/hero.pug
             //- HERO END
 
             //- ABOUT START
     
-            include ../components/about-us.pug
+            include ./components/about-us.pug
             //- ABOUT END
 
              //- WHY BUILD START
-            include ../components/why-build.pug
+            include ./components/why-build.pug
              //- WHY BUILD END
 
 
