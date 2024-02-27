@@ -37,3 +37,31 @@
         }
     }
 }
+
+.header__hamburger-icon{
+    display: none;
+}
+
+@media only screen and (max-width:400px){
+    .header{
+        .container{
+            width: 350px;
+            margin:0 auto;
+
+            .header__list{
+                display: none !important;
+            }
+
+            .header__btn-wrapper{
+                display: none !important;
+            }
+
+            .header__hamburger-icon{
+                display: block !important;
+                // margin-left: 230px !important;
+                cursor: pointer;
+            }
+
+        }
+    }
+}
