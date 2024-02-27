@@ -5,3 +5,22 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+
+ol ,ul{
+  list-style: none;
+}
+
+body{
+  background-color: #302c42;
+}
+
+.container{
+  width: 1232px;
+  margin: 0 auto;
+}
